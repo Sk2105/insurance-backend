@@ -6,7 +6,7 @@ accounting ledger, built with Node.js, Express, and MySQL.
 ## Tech stack
 
 - Node.js + Express 4
-- MySQL 8 / MariaDB (via **Sequelize** ORM, `mysql2` as the underlying driver)
+- MySQL 8 (via **Sequelize** ORM)
 - Repository layer wraps every Sequelize model call, so the JOIN/GROUP BY/
   SUM/transaction requirements are still explicit and easy to point to.
 
