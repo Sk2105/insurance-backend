@@ -1,0 +1,27 @@
+{
+  "name": "insurance-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "db:migrate": "node src/db/migrate.js",
+    "db:seed": "node src/db/seed.js"
+  },
+  "keywords": [
+    "insurance",
+    "accounting",
+    "ledger",
+    "mysql",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.24.3",
+    "sequelize": "^6.37.8"
+  }
+}
