@@ -29,8 +29,6 @@ npm run db:seed              # seeds chart of accounts + one sample customer
 npm start                    # http://localhost:3000
 ```
 
-Set `DB_LOG_SQL=true` in `.env` to have Sequelize print every generated
-query — useful for checking exactly what `/policies/:id/summary` runs.
 
 `GET /health` confirms the server is up without touching the database.
 
